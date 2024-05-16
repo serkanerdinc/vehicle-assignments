@@ -16,7 +16,7 @@ class VehicleSeeder extends Seeder
     public function run()
     {
         // Örnek Kullanıcılar
-        Vehicle::create([
+        Vehicle::insert([
             [
                 "plateNumber" => "35BOR001",
                 "model" => "Egea",
