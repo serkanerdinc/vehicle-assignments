@@ -14,12 +14,38 @@ class UserSeeder extends Seeder
      */
     public function run()
     {
-        // Başlangıç kullanıcısı
+        // Örnek Kullanıcılar
         User::create([
-            'name' => 'Serkan Erdinç',
-            'email' => 'admin@test.com',
-            'password' => Hash::make('admin'),
-            'role' => "admin"
+            [
+                'name' => 'Admin User',
+                'email' => 'admin@test.com',
+                'password' => Hash::make('admin'),
+                'role' => "admin"
+            ],
+            [
+                "name" => "Deniz Gümüş",
+                "email" => "deniz@gumus.com",
+                "department" => "Yazılım",
+                "title" => "Yazılım Uzmanı",
+                "phone" => "05546161311",
+                'role' => "user"
+            ],
+            [
+                "name" => "Ahmet Mete",
+                "email" => "ahmet@mete.com",
+                "department" => "Yazılım",
+                "title" => "Yazılım Uzmanı",
+                "phone" => "05541234567",
+                'role' => "user"
+            ],
+            [
+                "name" => "Merve Egeli",
+                "email" => "merve@egeli.com",
+                "department" => "IK",
+                "title" => "İnsan Kaynakları Uzmanı",
+                "phone" => "05547654321",
+                'role' => "user"
+            ]
         ]);
     }
 }
