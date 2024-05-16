@@ -18,34 +18,34 @@ class VehicleSeeder extends Seeder
         // Örnek Kullanıcılar
         Vehicle::insert([
             [
-                "plateNumber" => "35BOR001",
+                "plate_number" => "35BOR001",
                 "model" => "Egea",
                 "trademark" => "Fiat",
-                "engineNumber" => "123456790"
+                "engine_number" => "123456790"
             ],
             [
-                "plateNumber" => "35BOR002",
+                "plate_number" => "35BOR002",
                 "model" => "Egea",
                 "trademark" => "Fiat",
-                "engineNumber" => "123456791"
+                "engine_number" => "123456791"
             ],
             [
-                "plateNumber" => "35BOR003",
+                "plate_number" => "35BOR003",
                 "model" => "Egea",
                 "trademark" => "Fiat",
-                "engineNumber" => "123456792"
+                "engine_number" => "123456792"
             ],
             [
-                "plateNumber" => "35BOR004",
+                "plate_number" => "35BOR004",
                 "model" => "Egea",
                 "trademark" => "Fiat",
-                "engineNumber" => "123456793"
+                "engine_number" => "123456793"
             ],
             [
-                "plateNumber" => "35BOR005",
+                "plate_number" => "35BOR005",
                 "model" => "Elysee",
                 "trademark" => "Citroen",
-                "engineNumber" => "123456794"
+                "engine_number" => "123456794"
             ],
         ]);
     }
