@@ -16,7 +16,7 @@ class VehicleSeeder extends Seeder
     public function run()
     {
         // Örnek Kullanıcılar
-        DB::table('vehicles')->insert([
+        Vehicle::insert([
             [
                 "plateNumber" => "35BOR001",
                 "model" => "Egea",
